@@ -178,19 +178,19 @@
         "herramientas": [
           {
             "nombre": "Linux",
-            "logo": "src/components/icons/skills/linux.svg"
+            "logo": "/portfolio/src/components/icons/skills/linux.svg"
           },
           {
             "nombre": "Git",
-            "logo": "src/components/icons/skills/git.svg"
+            "logo": "/portfolio/src/components/icons/skills/git.svg"
           },
           {
             "nombre": "PackOffice",
-            "logo": "src/components/icons/skills/microsoft.svg"
+            "logo": "/portfolio/src/components/icons/skills/microsoft.svg"
           },
           {
             "nombre": "Canva",
-            "logo": "src/components/icons/skills/canva.svg"
+            "logo": "/portfolio/src/components/icons/skills/canva.svg"
           }
         ]
       }
@@ -219,17 +219,17 @@
     {
       "title":"Proyectos",
       "icon":"src/components/icons/page/proyectos.svg",
-      "url":"/#Proyectos"
+      "url":"/portfolio/#Proyectos"
     },
     {
       "title":"Formación",
       "icon":"src/components/icons/page/formacion.svg",
-      "url":"/#Formacion"
+      "url":"/portfolio/#Formacion"
     },
     {
       "title":"Contacto",
       "icon":"src/components/icons/page/proyectos.svg",
-      "url":"/#Social"
+      "url":"/portfolio/#Social"
     }
   ]
 
