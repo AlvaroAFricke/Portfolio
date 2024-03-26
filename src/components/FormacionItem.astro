@@ -1,0 +1,37 @@
+---
+interface Props {
+  titulo: string;
+  institucion: string;
+  descripcion: string;
+  inicio: string;
+  fin: string;
+  link: string;
+}
+const { titulo, institucion, descripcion, inicio, fin, link } = Astro.props;
+---
+
+<div
+  class="max-w-sm rounded overflow-hidden flex flex-col justify-between shadow-lg"
+>
+  <div class="px-6 py-4">
+    <div class="font-bold text-xl mb-2">{titulo}</div>
+    <p class="text-gray-700 text-base">
+      {institucion}
+    </p>
+    <p class="text-gray-700 text-base">
+      {descripcion}
+    </p>
+  </div>
+
+  <div class="px-6 py-4">
+    <div class="pb-3">
+      <p class="text-gray-700 text-base">
+        Inicio: {inicio}
+      </p>
+      <p class="">
+        Fin: {fin}
+      </p>
+    </div>
+    <a href={link} class="text-indigo-500 hover:text-indigo-700">Certificado</a>
+  </div>
+</div>

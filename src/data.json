@@ -1,0 +1,237 @@
+{
+  "personal": {
+    "nombre": "Alvaro Andres Fricke",
+    "apodo": "Alvaro",
+    "residencia": "La Plata, Buenos Aires, Argentina",
+    "detallado": "",
+    "correo": "mailto:alviafricke@gmail.com",
+    "linked": "https://www.linkedin.com/in/alvarofricke/",
+    "git": "https://github.com/AlvaroAFricke",
+    "wpp": "https://wa.me/542224503108?text=Hola%20Alvaro,%20queremos%20ponernos%20en%20contacto%20contigo.%20"
+  },
+  "fromacion": [
+    {
+      "titulo": "Ingeniería en Computación",
+      "institucion": "Universidad Nacional de La Plata",
+      "fecha_inicio": "2016",
+      "fecha_fin": "Actualidad",
+      "descripcion": "Carrera de grado con solidos conocimientos en computación, tanto en hardware como software.",
+      "link": "link"
+    },
+    {
+      "titulo": "Bachillerato en Ciencias Naturales",
+      "institucion": "Instituto San José",
+      "fecha_inicio": "2000",
+      "fecha_fin": "2015",
+      "descripcion": null,
+      "link": "link"
+    },
+    {
+      "titulo": "Superior en Ingles",
+      "institucion": "Kelper",
+      "fecha_inicio": "2000",
+      "fecha_fin": "2015",
+      "descripcion": null,
+      "link": "link"
+    },
+    {
+      "titulo": "Programación Web",
+      "institucion": "Coder House",
+      "fecha_inicio": "2022",
+      "fecha_fin": "2022",
+      "descripcion": "Curso de dessarrollo de paginas web estaticas.",
+      "link": "link"
+    },
+    {
+      "titulo": "Desarrollo Backend",
+      "institucion": "Coder House",
+      "fecha_inicio": "2022",
+      "fecha_fin": "2023",
+      "descripcion": "Curso de dessarrollo de Backend, con lo necesario para desarrollar un e-commerce.",
+      "link": "link"
+    },
+    {
+      "titulo": "Academia SAP FIORI BTP",
+      "institucion": "Universidad Tecnologica Nacional",
+      "fecha_inicio": "2023",
+      "fecha_fin": "2023",
+      "descripcion": "Curso de dessarrollo en SAP, orientado a Fiori con bases en ABAP.",
+      "link": "link"
+    }
+  ],
+
+  "experiencia": [
+    {
+      "puesto": "Nombre del puesto",
+      "empresa": "Nombre de la empresa",
+      "fecha_inicio": "Fecha de inicio",
+      "fecha_fin": "Fecha de finalización (o 'Actualidad' si aún trabajas aquí)",
+      "descripcion": "Breve descripción de tus responsabilidades y logros"
+    }
+  ],
+  
+    "proyectos": [
+      {
+        "nombre": "Sistema de Gestión de Empleados",
+        "descripcion": "Un sistema para gestionar empleados en una empresa.",
+        "tecnologias": ["React", "Node.js", "MongoDB"],
+        "codigo": "https://github.com/usuario/sistema-empleados",
+        "enlace": "https://sistema-empleados.com"
+      },
+      {
+        "nombre": "Plataforma de E-Commerce",
+        "descripcion": "Una plataforma de comercio electrónico para vender productos en línea.",
+        "tecnologias": ["Vue.js", "Laravel", "MySQL"],
+        "codigo": "https://github.com/usuario/plataforma-ecommerce",
+        "enlace": "https://plataforma-ecommerce.com"
+      },
+      {
+        "nombre": "Aplicación de Gestión de Tareas",
+        "descripcion": "Una aplicación para organizar y gestionar tareas personales o profesionales.",
+        "tecnologias": ["Angular", "ASP.NET Core", "SQL Server"],
+        "codigo": "https://github.com/usuario/aplicacion-tareas",
+        "enlace": ""
+      }
+    ],
+  
+    "skills": [
+      {
+        "category": "Backend",
+        "herramientas": [
+          {
+            "nombre": "NodeJS",
+            "logo": "src/components/icons/skills/nodejs.svg"
+          },
+          {
+            "nombre": "Deno",
+            "logo": "src/components/icons/skills/deno.svg"
+          },
+          {
+            "nombre": "Express",
+            "logo": "src/components/icons/skills/expressjs.svg"
+          },          {
+            "nombre": "MongoDB",
+            "logo": "src/components/icons/skills/mongodb.svg"
+          },
+          {
+            "nombre": "MySQL",
+            "logo": "src/components/icons/skills/mysql.svg"
+          },
+          {
+            "nombre": "SQLite3",
+            "logo": "src/components/icons/skills/sqlite.svg"
+          }
+        ]
+      },
+      {
+        "category": "Frontend",
+        "herramientas": [
+          {
+            "nombre": "HTML5",
+            "logo": "src/components/icons/skills/html5.svg"
+          },
+          {
+            "nombre": "CSS",
+            "logo": "src/components/icons/skills/css.svg"
+          },
+          {
+            "nombre": "React",
+            "logo": "src/components/icons/skills/react.svg"
+          },
+          {
+            "nombre": "Astro",
+            "logo": "src/components/icons/skills/astro.svg"
+          },
+          {
+            "nombre": "Tailwilnd",
+            "logo": "src/components/icons/skills/tailwindcss.svg"
+          },
+          {
+            "nombre": "Bootstrap",
+            "logo": "src/components/icons/skills/bootstrap.svg"
+          }
+        ]
+      },
+      {
+        "category": "Lenguajes",
+        "herramientas": [
+          {
+            "nombre": "JavaScript",
+            "logo": "src/components/icons/skills/javascript.svg"
+          },
+          {
+            "nombre": "Java",
+            "logo": "src/components/icons/skills/java.svg"
+          },
+          {
+            "nombre": "TypeScript",
+            "logo": "src/components/icons/skills/typescript.svg"
+          },
+          {
+            "nombre": "C",
+            "logo": "src/components/icons/skills/c.svg"
+          }
+        ]
+      },
+      {
+        "category": "Software",
+        "herramientas": [
+          {
+            "nombre": "Linux",
+            "logo": "src/components/icons/skills/linux.svg"
+          },
+          {
+            "nombre": "Git",
+            "logo": "src/components/icons/skills/git.svg"
+          },
+          {
+            "nombre": "PackOffice",
+            "logo": "src/components/icons/skills/microsoft.svg"
+          },
+          {
+            "nombre": "Canva",
+            "logo": "src/components/icons/skills/canva.svg"
+          }
+        ]
+      }
+    ],
+  
+  
+
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "nivel": "Nativo"
+    },
+    {
+      "idioma": "Ingles",
+      "nivel": "Intermedio"
+    }
+  ],
+
+
+  "NavBar": [
+    {
+      "title":"SobreMí",
+      "icon":"src/components/icons/page/aboutme.svg",
+      "url":"/#AboutMe"
+    },
+    {
+      "title":"Proyectos",
+      "icon":"src/components/icons/page/proyectos.svg",
+      "url":"/#Proyectos"
+    },
+    {
+      "title":"Formación",
+      "icon":"src/components/icons/page/formacion.svg",
+      "url":"/#Formacion"
+    },
+    {
+      "title":"Contacto",
+      "icon":"src/components/icons/page/proyectos.svg",
+      "url":"/#Social"
+    }
+  ]
+
+
+}

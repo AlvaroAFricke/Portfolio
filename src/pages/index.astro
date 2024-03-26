@@ -1,0 +1,29 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Navbar from "../components/Navbar.astro";
+import AboutMe from "../components/AboutMe.astro";
+import Proyectos from "../components/Proyectos.astro";
+import Formacion from "../components/Formacion.astro";
+import Social from "../components/Social.astro";
+import Skills from "../components/Skills.astro";
+---
+
+<Layout title="Welcome to Astro.">
+  <main>
+    <Navbar />
+
+    <div
+      class="bg-gradient-to-tr from-gray-700 from-10% via-slate-400 via-30% to-slate-900 to-90%"
+    >
+      <AboutMe />
+      <hr class="mx-24" />
+      <Proyectos />
+      <hr class="mx-24" />
+      <Formacion />
+      <hr class="mx-24" />
+      <Skills />
+      <hr class="mx-24" />
+      <Social />
+    </div>
+  </main>
+</Layout>
