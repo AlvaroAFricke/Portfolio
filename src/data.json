@@ -214,7 +214,7 @@
     {
       "title":"SobreMí",
       "icon":"src/components/icons/page/aboutme.svg",
-      "url":"/#AboutMe"
+      "url":"/portfolio/#AboutMe"
     },
     {
       "title":"Proyectos",
