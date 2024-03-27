@@ -100,26 +100,26 @@
         "herramientas": [
           {
             "nombre": "NodeJS",
-            "logo": "src/components/icons/skills/nodejs.svg"
+            "logo": "./src/components/icons/skills/astro.astro"
           },
           {
             "nombre": "Deno",
-            "logo": "src/components/icons/skills/deno.svg"
+            "logo": "portfolio/src/components/icons/skills/astro.astro"
           },
           {
             "nombre": "Express",
-            "logo": "src/components/icons/skills/expressjs.svg"
+            "logo": "../components/icons/skills/bootstrap.svg"
           },          {
             "nombre": "MongoDB",
-            "logo": "src/components/icons/skills/mongodb.svg"
+            "logo": "./icons/skills/mongodb.SVG"
           },
           {
             "nombre": "MySQL",
-            "logo": "src/components/icons/skills/mysql.svg"
+            "logo": "../components/icons/skills/bootstrap.SVG"
           },
           {
             "nombre": "SQLite3",
-            "logo": "src/components/icons/skills/sqlite.svg"
+            "logo": "./src/components/icons/skills/sqlite.svg"
           }
         ]
       },
@@ -132,7 +132,7 @@
           },
           {
             "nombre": "CSS",
-            "logo": "src/components/icons/skills/css.svg"
+            "logo": "icons/skills/css.svg"
           },
           {
             "nombre": "React",
@@ -140,7 +140,7 @@
           },
           {
             "nombre": "Astro",
-            "logo": "src/components/icons/skills/astro.astro"
+            "logo": "../../src/components/icons/skills/astro.astro"
           },
           {
             "nombre": "Tailwilnd",
