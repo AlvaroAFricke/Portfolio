@@ -111,11 +111,11 @@
             "logo": "../components/icons/skills/bootstrap.svg"
           },          {
             "nombre": "MongoDB",
-            "logo": "src/components/icons/skills/mongodb.svg"
+            "logo": "./icons/skills/mongodb.SVG"
           },
           {
             "nombre": "MySQL",
-            "logo": "src/components/icons/skills/mysql.svg"
+            "logo": "../components/icons/skills/bootstrap.SVG"
           },
           {
             "nombre": "SQLite3",
