@@ -100,11 +100,11 @@
         "herramientas": [
           {
             "nombre": "NodeJS",
-            "logo": "./src/components/icons/skills/nodejs.svg"
+            "logo": "./src/components/icons/skills/astro.astro"
           },
           {
             "nombre": "Deno",
-            "logo": "./icons/skills/deno.svg"
+            "logo": "portfolio/src/components/icons/skills/astro.astro"
           },
           {
             "nombre": "Express",
