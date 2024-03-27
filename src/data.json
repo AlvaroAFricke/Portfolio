@@ -132,7 +132,7 @@
           },
           {
             "nombre": "CSS",
-            "logo": "src/components/icons/skills/css.svg"
+            "logo": "icons/skills/css.svg"
           },
           {
             "nombre": "React",
