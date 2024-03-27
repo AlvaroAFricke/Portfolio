@@ -140,7 +140,7 @@
           },
           {
             "nombre": "Astro",
-            "logo": "../components/icons/skills/astro.astro"
+            "logo": "../../src/components/icons/skills/astro.astro"
           },
           {
             "nombre": "Tailwilnd",
