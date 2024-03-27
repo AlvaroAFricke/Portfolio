@@ -119,7 +119,7 @@
           },
           {
             "nombre": "SQLite3",
-            "logo": "src/components/icons/skills/sqlite.svg"
+            "logo": "./src/components/icons/skills/sqlite.svg"
           }
         ]
       },
