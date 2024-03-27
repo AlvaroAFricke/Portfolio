@@ -100,15 +100,15 @@
         "herramientas": [
           {
             "nombre": "NodeJS",
-            "logo": "src/components/icons/skills/nodejs.svg"
+            "logo": "./src/components/icons/skills/nodejs.svg"
           },
           {
             "nombre": "Deno",
-            "logo": "src/components/icons/skills/deno.svg"
+            "logo": "./icons/skills/deno.svg"
           },
           {
             "nombre": "Express",
-            "logo": "src/components/icons/skills/expressjs.svg"
+            "logo": "../components/icons/skills/bootstrap.svg"
           },          {
             "nombre": "MongoDB",
             "logo": "src/components/icons/skills/mongodb.svg"
