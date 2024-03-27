@@ -2,32 +2,37 @@
 import Data from "../data.json";
 ---
 
-<section
-  id="AboutMe"
-  class="triangle relative flex align-middle items-center justify-center flex-col"
->
-  <div class="size-22">
-    <div class="container">
-      <div class="content">
-        <div class="content__container">
-          <p class="content__container__text">Hello</p>
+<section id="AboutMe" class="triangle relative flex items-center align-middle">
+  <div class="grid grid-cols-1 mx-10 relative">
+    <img
+      class="rounded-lg absolute inset-0 w-full h-full object-cover z-0"
+      src="public/po-kung-fu-panda-2560x1080-14528.jpg"
+      alt=""
+    />
 
-          <ul class="content__container__list">
-            <li class="content__container__list__item">World!</li>
-            <li class="content__container__list__item">Coder!</li>
-            <li class="content__container__list__item">Users!</li>
-            <li class="content__container__list__item">Team!</li>
-          </ul>
+    <div class="flex flex-col align-middle items-center z-10">
+      <div class="container">
+        <div class="content">
+          <div class="content__container">
+            <p class="content__container__text text-white">Hello</p>
+
+            <ul class="content__container__list text-white">
+              <li class="content__container__list__item">World!</li>
+              <li class="content__container__list__item">Coder!</li>
+              <li class="content__container__list__item">Users!</li>
+              <li class="content__container__list__item">Team!</li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
 
-    <p class="flex px-20">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas
-      explicabo obcaecati qui, pariatur ex minima facere nemo eaque cum
-      assumenda. Est soluta nostrum atque dignissimos vel odio delectus nesciunt
-      ad!
-    </p>
+      <p class="flex px-20 text-white">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas
+        explicabo obcaecati qui, pariatur ex minima facere nemo eaque cum
+        assumenda. Est soluta nostrum atque dignissimos vel odio delectus
+        nesciunt ad!
+      </p>
+    </div>
   </div>
 </section>
 
@@ -36,19 +41,6 @@ import Data from "../data.json";
     position: relative;
     height: 96vh;
   }
-
-  /* .triangle::before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 38px 38px 0 38px;
-    border-color: #eae6e5 transparent transparent transparent;
-    left: 50%;
-    transform: translateX(-50%) translateY(100%);
-  } */
 
   .container {
     width: 307px;
