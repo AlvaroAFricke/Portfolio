@@ -3,7 +3,7 @@ import Data from "../data.json";
 import FormacionItem from "../components/FormacionItem.astro";
 ---
 
-<section id="Formacion" class="formacion mx-3">
+<section id="Formacion" class="formacion mx-2">
   <div class="pb-8 pt-6 flex items-center align-middle flex-col">
     <h1
       class="text-4xl font-bold text-center text-gray-900 bg-gradient-to-tl from-yellow-200 via-orange-200 to-yellow-200"
@@ -12,7 +12,7 @@ import FormacionItem from "../components/FormacionItem.astro";
     </h1>
 
     <div
-      class="grid grid-cols-1 gap-5 md:gap-8 md:grid-cols-2 lg:grid-cols-3 mt-5"
+      class="grid grid-cols-1 gap-5 md:gap-4 md:grid-cols-2 lg:grid-cols-3 mt-5"
     >
       {
         Data.fromacion.map((elemento) => (

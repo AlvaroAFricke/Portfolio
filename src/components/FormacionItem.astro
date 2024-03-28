@@ -24,12 +24,9 @@ const { titulo, institucion, descripcion, inicio, fin, link } = Astro.props;
   </div>
 
   <div class="px-6 py-4">
-    <div class="pb-3">
+    <div class="pb-2">
       <p class="text-gray-700 text-base">
-        Inicio: {inicio}
-      </p>
-      <p class="">
-        Fin: {fin}
+        Periodo: {inicio}-{fin}
       </p>
     </div>
     <a href={link} class="text-indigo-500 hover:text-indigo-700">Certificado</a>
