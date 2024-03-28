@@ -200,7 +200,7 @@
 
   "NavBar": [
     {
-      "title":"SobreMí",
+      "title":"Sobre Mí",
       "icon":"src/components/icons/page/aboutme.svg",
       "url":"/portfolio/#AboutMe"
     },
