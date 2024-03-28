@@ -100,7 +100,7 @@
         "herramientas": [
           {
             "nombre": "NodeJS",
-            "logo": "./src/components/icons/skills/astro.astro"
+            "logo": "@/components/icons/skills/astro.astro"
           },
           {
             "nombre": "Deno",
