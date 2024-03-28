@@ -99,27 +99,21 @@
         "category": "Backend",
         "herramientas": [
           {
-            "nombre": "NodeJS",
-            "logo": "@/components/icons/skills/astro.astro"
+            "nombre": "NodeJS"
           },
           {
-            "nombre": "Deno",
-            "logo": "portfolio/src/components/icons/skills/astro.astro"
+            "nombre": "Deno"
           },
           {
-            "nombre": "Express",
-            "logo": "../components/icons/skills/bootstrap.svg"
+            "nombre": "ExpressJs"
           },          {
-            "nombre": "MongoDB",
-            "logo": "./icons/skills/mongodb.SVG"
+            "nombre": "MongoDB"
           },
           {
-            "nombre": "MySQL",
-            "logo": "../components/icons/skills/bootstrap.SVG"
+            "nombre": "MySQL"
           },
           {
-            "nombre": "SQLite3",
-            "logo": "./src/components/icons/skills/sqlite.svg"
+            "nombre": "SQLite"
           }
         ]
       },
@@ -127,28 +121,22 @@
         "category": "Frontend",
         "herramientas": [
           {
-            "nombre": "HTML5",
-            "logo": "src/components/icons/skills/html5.svg"
+            "nombre": "HTML5"
           },
           {
-            "nombre": "CSS",
-            "logo": "icons/skills/css.svg"
+            "nombre": "CSS"
           },
           {
-            "nombre": "React",
-            "logo": "src/components/icons/skills/react.svg"
+            "nombre": "React"
           },
           {
-            "nombre": "Astro",
-            "logo": "../../src/components/icons/skills/astro.astro"
+            "nombre": "Astro"
           },
           {
-            "nombre": "Tailwilnd",
-            "logo": "src/components/icons/skills/tailwindcss.svg"
+            "nombre": "TailwindCss"
           },
           {
-            "nombre": "Bootstrap",
-            "logo": "src/components/icons/skills/bootstrap.svg"
+            "nombre": "Bootstrap"
           }
         ]
       },
@@ -156,20 +144,20 @@
         "category": "Lenguajes",
         "herramientas": [
           {
-            "nombre": "JavaScript",
-            "logo": "src/components/icons/skills/javascript.svg"
+            "nombre": "JavaScript"
+        
           },
           {
-            "nombre": "Java",
-            "logo": "src/components/icons/skills/java.svg"
+            "nombre": "Java"
+
           },
           {
-            "nombre": "TypeScript",
-            "logo": "src/components/icons/skills/typescript.svg"
+            "nombre": "TypeScript"
+
           },
           {
-            "nombre": "C",
-            "logo": "src/components/icons/skills/c.svg"
+            "nombre": "C"
+
           }
         ]
       },
@@ -177,20 +165,20 @@
         "category": "Software",
         "herramientas": [
           {
-            "nombre": "Linux",
-            "logo": "/portfolio/src/components/icons/skills/linux.svg"
+            "nombre": "Linux"
+
           },
           {
-            "nombre": "Git",
-            "logo": "/portfolio/src/components/icons/skills/git.svg"
+            "nombre": "Git"
+
           },
           {
-            "nombre": "PackOffice",
-            "logo": "/portfolio/src/components/icons/skills/microsoft.svg"
+            "nombre": "Microsoft"
+
           },
           {
-            "nombre": "Canva",
-            "logo": "/portfolio/src/components/icons/skills/canva.svg"
+            "nombre": "Canva"
+
           }
         ]
       }

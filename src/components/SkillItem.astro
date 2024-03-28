@@ -4,11 +4,14 @@ interface Props {
   logo: string;
 }
 const { nombre, logo } = Astro.props;
+
+const lower = nombre.toLowerCase();
+const url: string = "https://svgl.app/library/" + lower + ".svg";
 ---
 
 <div class="flex flex-col items-center p-3 item">
   <img
-    src={logo}
+    src={url}
     alt=""
     class="size-14 animate-pulse animate-infinite animate-ease-in hover:animate-none"
   />
