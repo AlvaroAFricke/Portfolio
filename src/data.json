@@ -72,23 +72,23 @@
   
     "proyectos": [
       {
-        "nombre": "Sistema de Gestión de Empleados",
-        "descripcion": "Un sistema para gestionar empleados en una empresa.",
-        "tecnologias": ["React", "Node.js", "MongoDB"],
+        "nombre": "Backend E-Commerce",
+        "descripcion": "Desarrollo de una Api-Rest Backend con todo lo necesario para implementar el funcionamiento de un E-Commerce.",
+        "tecnologias": ["Javascript","NodeJs", "ExpressJs", "MongoDB"],
         "codigo": "https://github.com/usuario/sistema-empleados",
         "enlace": "https://sistema-empleados.com"
       },
       {
-        "nombre": "Plataforma de E-Commerce",
-        "descripcion": "Una plataforma de comercio electrónico para vender productos en línea.",
-        "tecnologias": ["Vue.js", "Laravel", "MySQL"],
+        "nombre": "App Android",
+        "descripcion": "Desarrollo de app mobil para una PyMe, utilizando vistas recicladas y manejo de archivos para compartir información.",
+        "tecnologias": ["Android", "Java", "SQLite3"],
         "codigo": "https://github.com/usuario/plataforma-ecommerce",
         "enlace": "https://plataforma-ecommerce.com"
       },
       {
-        "nombre": "Aplicación de Gestión de Tareas",
-        "descripcion": "Una aplicación para organizar y gestionar tareas personales o profesionales.",
-        "tecnologias": ["Angular", "ASP.NET Core", "SQL Server"],
+        "nombre": "Landing Page",
+        "descripcion": "Sitio Web estático para micro emprendimiento con formato de muestra de productos específicos y contacto directo.",
+        "tecnologias": ["HTML5", "Css", "Sass"],
         "codigo": "https://github.com/usuario/aplicacion-tareas",
         "enlace": ""
       }
