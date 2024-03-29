@@ -11,11 +11,12 @@ const { titulo, institucion, descripcion, inicio, fin, link } = Astro.props;
 ---
 
 <div
-  class="rounded overflow-hidden flex flex-col justify-between shadow-sm shadow-black bg-gradient-to-tl from-yellow-200 via-orange-200 to-yellow-200"
+  class="overflow-hidden rounded ring-1 flex flex-col justify-between hover:bg-gradient-to-br from-transparent to-green-800"
 >
   <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2">{titulo}</div>
-    <p class="text-gray-700 text-base">
+    <hr class="mr-20 border-black" />
+    <p class="text-gray-700 text-base mt-2">
       {institucion}
     </p>
     <p class="text-gray-700 text-base">
