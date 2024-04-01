@@ -11,10 +11,8 @@ const { titulo, descripcion, tecnos, codigo, enlace } = Astro.props;
 import Tecnos from "../components/Tecnologias.astro";
 ---
 
-<div
-  class="relative rounded overflow-hidden h-full w-full ring"
->
-  <div>
+<div class="relative rounded overflow-hidden h-full w-full ring">
+  <div class="h-full w-full flex flex-col justify-between">
     <div class="px-6 py-4">
       <div class="font-bold text-xl mb-2">{titulo}</div>
       <p class="text-gray-700 text-base">
@@ -22,16 +20,19 @@ import Tecnos from "../components/Tecnologias.astro";
       </p>
     </div>
     <div class="px-6 py-4">
-      <ul class="pb-4 flex flex-row justify-between">
+      <ul class="pb-4 flex flex-col ml-2">
         {tecnos.map((tecno) => <Tecnos tecno={tecno} />)}
       </ul>
-      <a href={codigo} class="text-indigo-500 hover:text-indigo-700">Code</a>
-      <a href={enlace} class="text-indigo-500 hover:text-indigo-700 ml-2"
+      <a
+        href={codigo}
+        class="text-black bg-green-300 hover:bg-neutral-800 hover:text-slate-300 hover:ring-green-300 ring-2 ring-green-500 rounded p-2 mr-2"
+        >Code</a
+      >
+      <a
+        href={enlace}
+        class="text-black bg-green-300 hover:bg-neutral-800 hover:text-slate-300 hover:ring-green-300 ring-2 ring-green-500 rounded p-2"
         >Link</a
       >
     </div>
-  </div>
-  <div>
-    <img src="../../public/po-kung-fu-panda-2560x1080-14528.jpg" alt="" />
   </div>
 </div>
