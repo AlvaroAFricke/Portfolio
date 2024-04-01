@@ -16,30 +16,30 @@
       "fecha_inicio": "2016",
       "fecha_fin": "Actualidad",
       "descripcion": "Carrera de grado con solidos conocimientos en computación, tanto en hardware como software.",
-      "link": "link"
+      "link": null
     },
     {
       "titulo": "Bachillerato en Ciencias Naturales",
       "institucion": "Instituto San José",
       "fecha_inicio": "2000",
       "fecha_fin": "2015",
-      "descripcion": null,
-      "link": "link"
+      "descripcion": "Secundario con orientacion a la ciencia, matemáticas, física y computación",
+      "link": null
     },
     {
       "titulo": "Superior en Ingles",
       "institucion": "Kelper",
       "fecha_inicio": "2000",
       "fecha_fin": "2015",
-      "descripcion": null,
-      "link": "link"
+      "descripcion": "Nivel completo de ingles previo al certificado B2",
+      "link": null
     },
     {
       "titulo": "Programación Web",
       "institucion": "Coder House",
       "fecha_inicio": "2022",
       "fecha_fin": "2022",
-      "descripcion": "Curso de dessarrollo de paginas web estaticas.",
+      "descripcion": "Curso de desarrollo de páginas web estáticas. Conceptos de HTML, Css, Sass y Bootstrap.",
       "link": "link"
     },
     {
@@ -47,7 +47,7 @@
       "institucion": "Coder House",
       "fecha_inicio": "2022",
       "fecha_fin": "2023",
-      "descripcion": "Curso de dessarrollo de Backend, con lo necesario para desarrollar un e-commerce.",
+      "descripcion": "Curso de dessarrollo Backend, con lo necesario para desarrollar una API RESTful con ruteo, loggin, cookies, arquitectura MVC. Listo para preparar un e-commerce.",
       "link": "link"
     },
     {
@@ -55,7 +55,7 @@
       "institucion": "Universidad Tecnologica Nacional",
       "fecha_inicio": "2023",
       "fecha_fin": "2023",
-      "descripcion": "Curso de dessarrollo en SAP, orientado a Fiori con bases en ABAP.",
+      "descripcion": "Curso de desarrollo en SAP S4Hana, con orientación Fiori BTP con bases en ABAP.",
       "link": "link"
     }
   ],
@@ -75,8 +75,8 @@
         "nombre": "Backend E-Commerce",
         "descripcion": "Desarrollo de una Api-Rest Backend con todo lo necesario para implementar el funcionamiento de un E-Commerce.",
         "tecnologias": ["Javascript","NodeJs", "ExpressJs", "MongoDB"],
-        "codigo": "https://github.com/usuario/sistema-empleados",
-        "enlace": "https://sistema-empleados.com"
+        "codigo": "https://github.com/AlvaroAFricke/ProyectoFinalBackend",
+        "enlace": null
       },
       {
         "nombre": "App Android",
@@ -89,7 +89,7 @@
         "nombre": "Landing Page",
         "descripcion": "Sitio Web estático para micro emprendimiento con formato de muestra de productos específicos y contacto directo.",
         "tecnologias": ["HTML5", "Css", "Sass"],
-        "codigo": "https://github.com/usuario/aplicacion-tareas",
+        "codigo": "https://github.com/AlvaroAFricke/Coder-DM",
         "enlace": ""
       }
     ],
