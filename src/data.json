@@ -40,7 +40,7 @@
       "fecha_inicio": "2022",
       "fecha_fin": "2022",
       "descripcion": "Curso de desarrollo de páginas web estáticas. Conceptos de HTML, Css, Sass y Bootstrap.",
-      "link": "link"
+      "link": "https://i.imgur.com/WfzPsSy.png"
     },
     {
       "titulo": "Desarrollo Backend",
@@ -48,7 +48,7 @@
       "fecha_inicio": "2022",
       "fecha_fin": "2023",
       "descripcion": "Curso de dessarrollo Backend, con lo necesario para desarrollar una API RESTful con ruteo, loggin, cookies, arquitectura MVC. Listo para preparar un e-commerce.",
-      "link": "link"
+      "link": "https://imgur.com/2ITnhTM.png"
     },
     {
       "titulo": "Academia SAP FIORI BTP",
@@ -56,7 +56,7 @@
       "fecha_inicio": "2023",
       "fecha_fin": "2023",
       "descripcion": "Curso de desarrollo en SAP S4Hana, con orientación Fiori BTP con bases en ABAP.",
-      "link": "link"
+      "link": "https://i.imgur.com/ngQn233.png"
     }
   ],
 
@@ -82,15 +82,15 @@
         "nombre": "App Android",
         "descripcion": "Desarrollo de app mobil para una PyMe, utilizando vistas recicladas y manejo de archivos para compartir información.",
         "tecnologias": ["Android", "Java", "SQLite3"],
-        "codigo": "https://github.com/usuario/plataforma-ecommerce",
-        "enlace": "https://plataforma-ecommerce.com"
+        "codigo": "https://github.com/AlvaroAFricke/App-Android",
+        "enlace": null
       },
       {
         "nombre": "Landing Page",
         "descripcion": "Sitio Web estático para micro emprendimiento con formato de muestra de productos específicos y contacto directo.",
         "tecnologias": ["HTML5", "Css", "Sass"],
         "codigo": "https://github.com/AlvaroAFricke/Coder-DM",
-        "enlace": ""
+        "enlace": "https://alvaroafricke.github.io/Coder-DM/"
       }
     ],
   

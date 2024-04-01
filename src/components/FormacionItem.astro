@@ -22,17 +22,20 @@ const { titulo, institucion, descripcion, inicio, fin, link } = Astro.props;
     </p>
   </div>
 
-  <div class="px-6 py-4">
-    <div class="pb-2">
-      <p class="text-gray-700 text-base">
-        Periodo: {inicio}-{fin}
-      </p>
-    </div>
-    <a
-      id="cer"
-      href={link}
-      class="text-black bg-green-300 hover:bg-neutral-800 hover:text-slate-300 hover:ring-green-300 ring-2 ring-green-500 rounded p-2"
-      >Certificado</a
-    >
+  <div class="px-6 py-4 flex items-baseline justify-between">
+    <p class="text-gray-700 text-base">
+      Periodo: {inicio}-{fin}
+    </p>
+    {
+      link && (
+        <a
+          id="cer"
+          href={link}
+          class="text-black bg-green-300 hover:bg-neutral-800 hover:text-slate-300 hover:ring-green-300 ring-2 ring-green-500 rounded p-2"
+        >
+          Certificado
+        </a>
+      )
+    }
   </div>
 </div>
