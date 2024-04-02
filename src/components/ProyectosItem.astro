@@ -11,7 +11,9 @@ const { titulo, descripcion, tecnos, codigo, enlace } = Astro.props;
 import Tecnos from "../components/Tecnologias.astro";
 ---
 
-<div class="relative rounded overflow-hidden h-full w-full ring">
+<div
+  class="relative rounded overflow-hidden h-full w-full ring-2 ring-neutral-500"
+>
   <div class="h-full w-full flex flex-col justify-between">
     <div class="px-6 py-4">
       <div class="font-bold text-xl mb-2">{titulo}</div>
